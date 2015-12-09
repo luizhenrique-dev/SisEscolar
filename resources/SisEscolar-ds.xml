@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource 
+        jndi-name="SisEscolarDatasource"
+        enabled="true" 
+        use-java-context="true" pool-name="SisEscolarDatasource_pool">
+        <connection-url>jdbc:mysql://localhost:3306/sis-escolar</connection-url>
+        <driver>mysql-connector-java-5.1.38-bin.jar</driver>
+        <security>
+		      <user-name>root</user-name>
+		      <password>237904</password>
+        </security>
+    </datasource>
+</datasources>
